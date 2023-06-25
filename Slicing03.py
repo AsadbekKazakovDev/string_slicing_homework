@@ -5,4 +5,8 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return s[1:-1]
+s = "Python"
+print(main(s))
+s = "Codeacademy"
+print(main(s))
